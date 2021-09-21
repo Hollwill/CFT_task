@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  web:
+    build: ./
+    command: flask run -h 0.0.0.0
+    volumes:
+      - ./:/usr/src/app/
+      - templates:/usr/src/app/templates
+
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./.env.dev
+    depends_on:
+      - frontend
+  frontend:
+    build: ./frontend
+    command: npm run dev
+    volumes:
+      - ./frontend:/usr/src/app/frontend
+      - templates:/usr/src/app/frontend/dist
+
+    ports:
+      - "80:80"
+
+volumes:
+  templates:
