@@ -327,3 +327,12 @@
 {"levelname": "INFO", "message": "127.0.0.1 - - [22/Sep/2021 01:55:53] \"\u001b[35m\u001b[1mGET / HTTP/1.1\u001b[0m\" 500 -", "msecs": 174.2708683013916}
 {"levelname": "INFO", "message": " * Detected change in '/usr/src/app/app.py', reloading", "msecs": 586.158037185669}
 {"levelname": "INFO", "message": " * Restarting with stat", "msecs": 638.0953788757324}
+{"levelname": "INFO", "message": " * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)", "msecs": 49.99351501464844}
+{"levelname": "INFO", "message": "127.0.0.1 - - [22/Sep/2021 21:43:38] \"GET / HTTP/1.1\" 200 -", "msecs": 20.077228546142578}
+{"levelname": "INFO", "message": "127.0.0.1 - - [22/Sep/2021 21:43:38] \"\u001b[33mGET /favicon.ico HTTP/1.1\u001b[0m\" 404 -", "msecs": 169.07835006713867}
+{"levelname": "INFO", "message": "127.0.0.1 - - [22/Sep/2021 21:44:13] \"OPTIONS /api/black_or_white_more HTTP/1.1\" 200 -", "msecs": 57.14607238769531}
+{"levelname": "INFO", "message": "127.0.0.1 - - [22/Sep/2021 21:44:13] \"POST /api/black_or_white_more HTTP/1.1\" 200 -", "msecs": 454.7250270843506}
+{"levelname": "INFO", "message": "127.0.0.1 - - [22/Sep/2021 21:44:19] \"OPTIONS /api/count_pixels_of_color HTTP/1.1\" 200 -", "msecs": 148.09489250183105}
+{"levelname": "INFO", "message": "127.0.0.1 - - [22/Sep/2021 21:44:19] \"POST /api/count_pixels_of_color HTTP/1.1\" 200 -", "msecs": 508.0862045288086}
+{"levelname": "INFO", "message": "127.0.0.1 - - [22/Sep/2021 21:44:25] \"OPTIONS /api/count_pixels_of_color HTTP/1.1\" 200 -", "msecs": 943.897008895874}
+{"levelname": "INFO", "message": "127.0.0.1 - - [22/Sep/2021 21:44:26] \"POST /api/count_pixels_of_color HTTP/1.1\" 200 -", "msecs": 311.9206428527832}
